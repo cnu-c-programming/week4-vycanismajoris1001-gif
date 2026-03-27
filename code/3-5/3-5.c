@@ -9,7 +9,7 @@ void my_print(char type, void* x) {
        printf("%d\n", *(int*)x);
        break;
     case 'S':
-       printf("%s\n", *(String*)x);
+       printf("%s\n", *(char*)x);
        break;
   }
 
