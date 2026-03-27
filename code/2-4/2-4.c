@@ -10,8 +10,8 @@ int main() {
      printf("%c - alpha:%d digit:%d upper:%c lower:%c\n", 
        ch, 
        isalpha(ch),
-       isdigit(ch)
-       toupper(ch)
+       isdigit(ch),
+       toupper(ch),
        tolower(ch));
   }
 
