@@ -8,6 +8,7 @@ int main() {
         logger("even");
       else
         logger("odd");
+  }
 
   return 0;
 }
